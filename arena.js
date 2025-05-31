@@ -175,7 +175,7 @@ function setStats() {
 
 function setEnemyStats() {
     if (enemyName == "boonga") {
-    enemy.src = "/images/boonga.png"
+    enemy.src = "./images/boonga.png"
     ename.textContent = "Boonga"
     enemyMaxHP = 100
     enemyHP = 100
@@ -187,7 +187,7 @@ function setEnemyStats() {
     enemySpFct = 1.1
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "squob") {
-    enemy.src = "/images/squob.png"
+    enemy.src = "./images/squob.png"
     ename.textContent = "Squob"
     enemyMaxHP = 70
     enemyHP = 70
@@ -198,7 +198,7 @@ function setEnemyStats() {
     enemyBasePower = 10
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "makoblin") {
-    enemy.src = "/images/makoblin.png"
+    enemy.src = "./images/makoblin.png"
     ename.textContent = "Makoblin"
     enemyMaxHP = 50
     enemyHP = 50
@@ -209,7 +209,7 @@ function setEnemyStats() {
     enemyBasePower = 80
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "meowrus") {
-    enemy.src = "/images/meowrus.png"
+    enemy.src = "./images/meowrus.png"
     ename.textContent = "Meowrus"
     enemyMaxHP = 75
     enemyHP = 75
@@ -220,7 +220,7 @@ function setEnemyStats() {
     enemyBasePower = 65
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "krokomo") {
-    enemy.src = "/images/krokomo.png"
+    enemy.src = "./images/krokomo.png"
     ename.textContent = "Krokomo"
     enemyMaxHP = 70
     enemyHP = 70
@@ -231,7 +231,7 @@ function setEnemyStats() {
     enemyBasePower = 50
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "skabbit") {
-    enemy.src = "/images/skabbit.png"
+    enemy.src = "./images/skabbit.png"
     ename.textContent = "Skabbit"
     enemyMaxHP = 60
     enemyHP = 60
@@ -242,7 +242,7 @@ function setEnemyStats() {
     enemyBasePower = 40
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "skellbo") {
-    enemy.src = "/images/skellbo.png"
+    enemy.src = "./images/skellbo.png"
     ename.textContent = "Skellbo"
     enemyMaxHP = 140
     enemyHP = 140
@@ -254,7 +254,7 @@ function setEnemyStats() {
     enemySpFct = 1.1
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "konkle") {
-    enemy.src = "/images/konkle.png"
+    enemy.src = "./images/konkle.png"
     ename.textContent = "Konkle"
     enemyMaxHP = 80
     enemyHP = 80
@@ -265,7 +265,7 @@ function setEnemyStats() {
     enemyBasePower = 50
     displayehp.textContent = "HP: " + enemyHP + "/" + enemyMaxHP
 }   else if (enemyName == "oomfo") {
-    enemy.src = "/images/oomfo.png"
+    enemy.src = "./images/oomfo.png"
     ename.textContent = "Oomfo"
     enemyMaxHP = 100
     enemyHP = 100
