@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+/* bron: https://www.w3schools.com/cssref/pr_background-image.php */
+body {
+    background-image:url(../images/hills.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+nav a {
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    border:.2em solid rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+#player {
+    transform: rotateY(180deg);
+}
+
+header img {
+    display: flex;
+    justify-self: center;
+}
+
+.slct {
+    display: flex;
+    justify-self: center; 
+    font-size: 5em
+}
+
+main > p {
+    font-size:xx-large;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+button {
+    font-size:larger;
+    padding: 1rem;
+    border: 0;
+    border-radius: 1em;
+    color:white;
+    background-color: rgb(163, 163, 163);
+}
+
+.page {
+    background-color: rgb(211, 211, 211);
+    padding: .8em;
+    margin-bottom: 2em;
+    border:1em;
+    border-color: rgb(126, 126, 126);
+    border-radius: 1em;
+}
+
+.earth {
+    background-color: rgb(77, 209, 88);
+    padding: .8em;
+    margin-bottom: 2em;
+    border:1em;
+    border-color: rgb(126, 126, 126);
+    border-radius: 1em;
+}
+
+.fire {
+    background-color: rgb(201, 134, 79);
+    padding: .8em;
+    margin-bottom: 2em;
+    border:1em;
+    border-color: rgb(126, 126, 126);
+    border-radius: 1em;
+}
+
+.water {
+    background-color: rgb(100, 166, 219);
+    padding: .8em;
+    margin-bottom: 2em;
+    border:1em;
+    border-color: rgb(126, 126, 126);
+    border-radius: 1em;
+}
+
+.goofballs {
+    display:flex;
+    padding-left: 10em;
+    padding-right: 10em;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+
+.goofballs div {
+    margin-inline: 3em;
+}
+
+.goofballs div:hover {
+    background-color: aliceblue;
+    transition: all 300ms ease;
+}
+
+#winner {
+    width: 50vw;
+    display: none;
+    z-index: 1;
+    position:absolute;
+    margin-inline: 20vw;
+}
+
+/* bron: https://chatgpt.com/ prompt: how do I use css to hide images */
+#loser {
+    width: 50vw;
+    display: none;
+    z-index: 1;
+    position:absolute;
+    margin-inline: 20vw;
+}
+
+/* bron: https://tech.timonwa.com/blog/styling-progress-bar */
+progress {
+    width: 14em;
+    height: 1em;
+    border-radius: 10em;
+    margin-bottom: 2em;
+}
+
+#peehpee[value]::-webkit-progress-value {
+    background-color: rgb(24, 207, 0);
+}
+
+#poohpoo[value]::-webkit-progress-value {
+    background-color: rgb(207, 0, 0);
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(212, 212, 212);
+}

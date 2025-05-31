@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href= "./styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <h1>
+        <img src="./images/goofballarena.png" width="400vw" alt="Goofball Arena wordmark">
+        </h1>
+        </a>
+        <nav>
+        <a href="info.html">GOOFBALL ENCYCLOPEDIA</a>
+        <a href="arena.html">ARENA</a>
+        </nav>
+    </header>
+    <main>
+    <a href="index.html">
+    <img src="./images/winner.png" alt="You win" id="winner">
+    </a>
+    <a href="index.html">
+    <img src="./images/loser.png" alt="You lost" id="loser">
+    </a>
+    <section>
+    <div>
+    <h2 id="pname">Mon</h2>
+    <p>HP</p>
+    <progress value="0" max="0" id="peehpee"></progress>
+    <br>
+    <img src="images/blank.png" width="256em" id="player">
+    </div>
+    <div>
+    <h2 id="ename">Mon</h2>
+    <p id="eHp">HP</p>
+    <progress value="0" max="0" id="poohpoo"></progress>
+    <br>
+    <img src="images/blank.png" width="256em" id="enemy">
+    </div>
+    </section>
+    <button id="moveA">attack A</button>
+    <button id="moveB">attack B</button>
+    <p id="narrator">choose a move idiot</p>
+    </main>
+    <script src="arena.js"></script>
+</body>
+</html>
