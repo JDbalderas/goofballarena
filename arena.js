@@ -51,7 +51,7 @@ function updateHPbars() {
 function setStats() {
     updateHPbars()
     if (myMonName == "boonga") {
-    player.src = "/images/boonga.png"
+    player.src = "./images/boonga.png"
     pname.textContent = "Boonga"
     moveA.textContent = "Cap bonk"
     moveB.textContent = "Spore"
@@ -65,7 +65,7 @@ function setStats() {
     mySpFct = 1.1
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "skabbit") {
-    player.src = "/images/skabbit.png"
+    player.src = "./images/skabbit.png"
     pname.textContent = "Skabbit"
     moveA.textContent = "Carrot toss"
     moveB.textContent = "Kick flip"
@@ -78,7 +78,7 @@ function setStats() {
     myBasePower = 40
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "skellbo") {
-    player.src = "/images/skellbo.png"
+    player.src = "./images/skellbo.png"
     pname.textContent = "Skellbo"
     moveA.textContent = "Skull tackle"
     moveB.textContent = "Healing spell"
@@ -92,7 +92,7 @@ function setStats() {
     mySpFct = 1.1
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "squob") {
-    player.src = "/images/squob.png"
+    player.src = "./images/squob.png"
     pname.textContent = "Squob"
     moveA.textContent = "Spark"
     moveB.textContent = "Oil up"
@@ -105,7 +105,7 @@ function setStats() {
     myBasePower = 10
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "krokomo") {
-    player.src = "/images/krokomo.png"
+    player.src = "./images/krokomo.png"
     pname.textContent = "Krokomo"
     moveA.textContent = "Dragon's breath"
     moveB.textContent = "Rage"
@@ -118,7 +118,7 @@ function setStats() {
     myBasePower = 50
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "konkle") {
-    player.src = "/images/konkle.png"
+    player.src = "./images/konkle.png"
     pname.textContent = "Konkle"
     moveA.textContent = "Smoke spew"
     moveB.textContent = "Withdraw"
@@ -131,7 +131,7 @@ function setStats() {
     myBasePower = 50
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "makoblin") {
-    player.src = "/images/makoblin.png"
+    player.src = "./images/makoblin.png"
     pname.textContent = "Makoblin"
     moveA.textContent = "Jaws"
     moveB.textContent = "Sharpen" 
@@ -144,7 +144,7 @@ function setStats() {
     myBasePower = 80
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "meowrus") {
-    player.src = "/images/meowrus.png"
+    player.src = "./images/meowrus.png"
     pname.textContent = "Meowrus"
     moveA.textContent = "Shish kebab"
     moveB.textContent = "Bounce"
@@ -157,7 +157,7 @@ function setStats() {
     myBasePower = 65
     displayhp.textContent = "HP: " + myHP + "/" + myMaxHP
 }   else if (myMonName == "oomfo") {
-    player.src = "/images/oomfo.png"
+    player.src = "./images/oomfo.png"
     pname.textContent = "Oomfo"
     moveA.textContent = "Venom whip"
     moveB.textContent = "Tender tentacles"
